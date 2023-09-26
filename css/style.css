@@ -1,3 +1,4 @@
+/*instruction 3 on the directions*/
 body {
     font-family: Arial, Verdana;
     background-color: #000000; 
@@ -5,22 +6,26 @@ body {
     margin: 20px 0; 
 }
 
+/*instruction 4 on the directions*/
 h1 {
     font-size: 42px;
     text-align: center;
     padding: 15px;
 }
 
+/*instruction 5 on the directions*/
 h2 {
     font-size: 30px;
     color: #0D0D0D; 
 }
 
+/*instruction 6 on the directions*/
 p {
     font-size: 24px;
     padding: 10px 0 0 10px;
 }
 
+/*instruction 7 on the directions*/
 img {
     width: 250px;
     display: block;
@@ -28,8 +33,73 @@ img {
     border: 10px dashed #ffffff;
 }
 
+/*instruction 8 on the directions*/
 div {
     min-height: 125px;
     padding: 20px;
     border: 3px solid #ffffff;
 }
+
+/*instruction 9 on the directions*/
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2; 
+}
+
+/*instruction 10 on the directions*/
+  .red {
+    background-color: #ff0000; 
+    text-align: right; 
+    margin-left: 50px; 
+  }
+  
+  /*instruction 11 on the directions*/
+  .blue {
+    background-color: #0000ff; 
+    text-align: left; 
+    margin-right: 50px; 
+    border-width: 2px 5px; 
+    color: #C4C4C4;
+  }
+
+  /*resolving the contrast issue*/
+  .blue h2{
+    color: #C4C4C4;
+  }
+
+  /*instruction 12 on the directions*/
+  .yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 2px 5px;
+  }
+
+  .yellow p{
+    color: #707070;
+  }
+  
+  /*instruction 13 on the directions*/
+  .green {
+    background-color: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px;
+  }
+  
+  /*instruction 14 on the directions*/
+  footer {
+    background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px solid white;
+  }
+
+  /*instruction 15 on the directions*/
+  footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0; 
+  }
+
+  
+  
